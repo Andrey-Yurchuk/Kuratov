@@ -1,0 +1,159 @@
+
+body {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*** Section 1 ***/
+
+.dark_section {
+    background-color: #2d3136;
+}
+
+.img_logo {
+    padding-top: 40px;
+    margin-left: 200px;
+}
+
+.img_email {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.form {
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-right: 100px;
+    font-size: 18px;
+    background-color: #2d3136;
+    color: white;
+    border: 2px solid rgb(155, 156, 159);
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #dc3545;
+}
+
+.form-control:focus {
+    border-color: #dc3545;
+}
+
+.form-control:not(:placeholder-shown) {
+    color: white;
+}
+
+.form-control:focus,
+.form-control:not(:placeholder-shown) {
+    background-color: #2d3136;
+}
+
+.btn-danger {
+    float: right;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.text-right {
+    background-color: #2d3136;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    margin-right: 75px; /* Для выравнивания копки */
+}
+
+.small-input {
+    width: 380px; /* Длина инпутов */
+    font-size: 18px;
+}
+
+.text-4xl {
+    font-size: 30px;
+}
+
+/*** Section 2 ***/
+
+.white_section {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.margin_cards {
+    margin-left: 50px;
+}
+
+/*** Section 3 ***/
+
+.footer_padding {
+    padding-bottom: 35px;
+}
+
+.img_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.img_vk_fb {
+    display: flex;
+    gap: 40px;
+    margin-right: 190px;
+}
+
+.img_vk_fb img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*** CSS styles for cards ***/
+.comment-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+
+.name {
+    color: white;
+    padding: 5px;
+}
+
+.email-comment {
+    padding-bottom: 30px;
+}
+
+.comment-card:nth-child(odd) .name {
+    background-color: #4b596c;
+}
+
+.comment-card:nth-child(odd) .email-comment {
+    background-color: #eaf0f6;
+}
+
+.comment-card:nth-child(even) .name {
+    background-color: #58ad52;
+}
+
+.comment-card:nth-child(even) .email-comment {
+    background-color: #e1f3e0;
+}
+
+#commentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
