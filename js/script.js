@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        if (!validateName(name)) {
+            alert('Имя не должно содержать пробелы');
+            return;
+        }
+
         if (!validateEmail(email)) {
             alert('Пожалуйста, введите корректный email');
             return;
@@ -55,6 +60,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function validateEmail(email) {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
+}
+
+function validateName(name) {
+    const re = /^\S*$/;
+    return re.test(name);
 }
 
 function loadExistingComments() {

@@ -6,9 +6,9 @@ a form for submitting information with using AJAX technology to the database wit
 displaying comments retrieved from the database.
 
 ## Technologies
-HTML5
-CSS3
-PHP
-MySQL
-JavaScript
-Bootstrap v.5.3.2
+HTML5,
+CSS3,
+PHP,
+MySQL,
+JavaScript,
+Bootstrap v.5.3.2.

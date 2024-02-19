@@ -1,4 +1,3 @@
-
 body {
     max-width: 1350px;
     width: 100%;
@@ -41,10 +40,6 @@ body {
 
 .form-control:focus {
     box-shadow: none;
-    border-color: #dc3545;
-}
-
-.form-control:focus {
     border-color: #dc3545;
 }
 
@@ -119,6 +114,7 @@ body {
 }
 
 /*** CSS styles for cards ***/
+
 .comment-card {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -156,4 +152,215 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+}
+
+/*** Media queries ***/
+
+@media (max-width: 1199px) {
+    .small-input {
+        width: 320px; /* Длина инпутов */
+    }
+
+    .text-right {
+        margin-right: 47px; /* Для выравнивания копки */
+    }
+}
+
+@media (max-width: 991px) {
+    .form {
+        margin-left: 170px;
+    }
+
+    .small-input {
+        width: 380px; /* Длина инпутов */
+    }
+
+    .indent {
+        margin-top: 15px;
+    }
+
+    .text-right {
+        padding-top: 10px;
+        margin-right: 220px; /* Для выравнивания копки */
+    }
+
+    .img_logo {
+        margin-left: 320px;
+    }
+
+    .img_query {
+        margin-left: 70px;
+    }
+
+    .img_vk_fb {
+        gap: 20px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 940px) {
+    .img_logo {
+        margin-left: 300px;
+    }
+
+    .img_query {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 880px) {
+    .img_logo {
+        margin-left: 270px;
+    }
+
+    .img_query {
+        margin-left: 50px;
+    }
+
+    .comment-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .img_logo {
+        margin-left: 240px;
+    }
+
+    .img_query {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 780px) {
+    .form {
+        margin-left: 140px;
+    }
+
+    .text-right {
+        padding-top: 8px;
+        margin-right: 250px; /* Для выравнивания копки */
+    }
+}
+
+@media (max-width: 772px) {
+    .form {
+        margin-left: 120px;
+    }
+
+    .text-right {
+        margin-right: 260px; /* Для выравнивания копки */
+    }
+
+    .img_email {
+        padding-left: 30px;
+    }
+
+    .img_query {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 770px) {
+    .text-right {
+        margin-left: 285px; /* Для выравнивания копки */
+    }
+}
+
+@media (max-width: 701px) {
+
+    .small-input {
+        width: 320px; /* Длина инпутов */
+    }
+
+    .text-right {
+        margin-left: 255px; /* Для выравнивания копки */
+    }
+
+    .comment-card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .img_logo {
+        margin-left: 220px;
+    }
+
+    .img_query {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .img_logo {
+        margin-left: 200px;
+    }
+
+    .img_query {
+        margin-left: 105px;
+    }
+}
+
+@media (max-width: 601px) {
+    .img_logo {
+        margin-left: 170px;
+    }
+
+    .img_query {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 580px) {
+    .img_vk_fb {
+        gap: 10px;
+        margin-right: 50px;
+    }
+
+    .text-right {
+        margin-right: 140px;
+    }
+
+    .img_logo {
+        margin-left: 155px;
+    }
+
+    .img_query {
+        margin-left: 85px;
+    }
+}
+
+@media (max-width: 575px) {
+    .text-right {
+        margin-right: 170px;
+    }
+}
+
+@media (max-width: 560px) {
+    .form {
+        margin-left: 80px;
+    }
+
+    .text-right {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 520px) {
+    .img_logo {
+        margin-left: 60px;
+    }
+
+    .img_query {
+        margin-left: 80px;
+    }
+
+    .small-input {
+        width: 200px;
+    }
 }
